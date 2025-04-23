@@ -42,7 +42,6 @@ To build a smart voice-based system that:
 
 ## 🧠 System Architecture
 
-```mermaid
 graph TD
     UI[Voice Agent (TTS + STT)]
     Telephony[Telephony API (Twilio/Plivo)]
