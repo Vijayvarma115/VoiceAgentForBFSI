@@ -4,14 +4,14 @@ from deepgramvoice import transcribe_audio
 
 
 # Twilio credentials (Get these from your Twilio Console)
-account_sid = "AC645863252fbe5b26771da38d51535391"
-auth_token = "41cbcb78e51cc29f94836a0497c45c83"
+account_sid = "ACxxxxxxxxxxxxxxxxxxxxx"
+auth_token = "xxxxxxxxxxxxxxxxxxxxxx"
 client = Client(account_sid, auth_token)
 
 # Make an outbound call
 call = client.calls.create(
-    to="+919100401129",
-    from_="+19302123375",
+    to="+9191004011xx",
+    from_="+19302123xxx",
     twiml="""
         <Response>
             <Say>Hello! This is a test call from Twilio. Please speak after the beep.</Say>
