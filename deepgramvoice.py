@@ -2,7 +2,7 @@ import requests
 import os
 
 # Load Deepgram API key from environment variables
-DEEPGRAM_API_KEY = 'ccd9b8871e5d69219d70f63404807ebd7466b822'
+DEEPGRAM_API_KEY = 'ccd9b8871e5d69219d70f63404807exxxxxx'
 
 def transcribe_audio(audio_url):
     """
